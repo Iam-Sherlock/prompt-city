@@ -1381,6 +1381,7 @@ You are an expert frontend engineer, UI/UX designer, visual design specialist, a
   },
   {
     id: "maximalism",
+    category: "desktop",
     name: "Tactile Maximalism",
     description: "More is more — rich textures, layered patterns, clashing colors, dense layouts, and an overwhelming sensory feast for the eyes.",
     accentColor: "#e11d48",
