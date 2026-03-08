@@ -653,6 +653,7 @@ You are an expert frontend engineer, UI/UX designer, visual design specialist, a
   },
   {
     id: "bento",
+    category: "desktop",
     name: "Bento Grid",
     description: "Inspired by Japanese bento boxes — content organized in a modular grid of varied-size containers, each holding a distinct piece of content.",
     accentColor: "#8b5cf6",
