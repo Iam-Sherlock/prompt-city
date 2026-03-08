@@ -1899,6 +1899,7 @@ You are an expert frontend engineer, UI/UX designer, visual design specialist, a
   },
   {
     id: "ecommerce",
+    category: "desktop",
     name: "E-commerce Immersive",
     description: "Product-focused, immersive shopping experience — large hero imagery, clean product cards, subtle animations, and seamless conversion flow.",
     accentColor: "#059669",
