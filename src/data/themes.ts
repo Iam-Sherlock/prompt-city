@@ -1620,6 +1620,7 @@ You are an expert frontend engineer, UI/UX designer, visual design specialist, a
   },
   {
     id: "scrapbook",
+    category: "desktop",
     name: "Scrapbook / Collage",
     description: "Hand-crafted, collage-style layouts — torn edges, tape, stickers, hand-drawn elements, overlapping photos, and a personal, DIY feel.",
     accentColor: "#ec4899",
