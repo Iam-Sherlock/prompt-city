@@ -456,6 +456,7 @@ Three colors only. No exceptions.
   },
   {
     id: "swiss",
+    category: "desktop",
     name: "Swiss Style",
     description: "The International Typographic Style — mathematical grid systems, clean sans-serif type, objective photography, and asymmetric layouts.",
     accentColor: "#e63946",
