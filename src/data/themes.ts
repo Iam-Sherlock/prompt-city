@@ -367,6 +367,7 @@ box-shadow: 0 0 15px rgba(255,0,255,0.5), inset 0 0 15px rgba(255,0,255,0.1);
   },
   {
     id: "constructivism",
+    category: "desktop",
     name: "Constructivism",
     description: "Inspired by 1920s Russian avant-garde art — bold geometric shapes, limited color palette of red/black/cream, diagonal compositions.",
     accentColor: "#cc0000",
