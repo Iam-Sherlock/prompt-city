@@ -1031,6 +1031,7 @@ You are an expert frontend engineer, UI/UX designer, visual design specialist, a
   },
   {
     id: "vaporwave",
+    category: "desktop",
     name: "Vaporwave",
     description: "A E S T H E T I C — retro 80s/90s nostalgia, pink-purple-cyan gradients, glitch art, marble busts, and pixelated sunsets.",
     accentColor: "#ff71ce",
