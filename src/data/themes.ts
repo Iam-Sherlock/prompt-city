@@ -939,6 +939,7 @@ You are an expert frontend engineer, UI/UX designer, visual design specialist, a
   },
   {
     id: "organic",
+    category: "desktop",
     name: "Nature Distilled",
     description: "Organic, nature-inspired design — earthy color palettes, soft rounded shapes, botanical motifs, and a calming, grounded feel.",
     accentColor: "#4a7c59",
