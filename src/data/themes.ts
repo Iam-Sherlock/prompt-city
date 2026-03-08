@@ -1211,6 +1211,7 @@ You are an expert frontend engineer, UI/UX designer, visual design specialist, a
   },
   {
     id: "neumorphism",
+    category: "desktop",
     name: "Neumorphism",
     description: "Soft UI — elements appear extruded from or pressed into the background using subtle inner and outer shadows on a monochromatic surface.",
     accentColor: "#6366f1",
