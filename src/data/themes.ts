@@ -138,6 +138,7 @@ This glow effect is essential — it simulates the phosphor bloom of CRT monitor
   },
   {
     id: "neo-brutalism",
+    category: "desktop",
     name: "Neo-Brutalism",
     description: "Bold, unapologetic design with thick black borders, vivid background colors, hard shadows, and raw, unpolished aesthetic.",
     accentColor: "#ff6b6b",
