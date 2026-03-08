@@ -4,6 +4,7 @@ export interface ThemeConfig {
   description: string;
   accentColor: string;
   prompt: string;
+  category: "desktop" | "mobile";
 }
 
 export const themes: ThemeConfig[] = [
