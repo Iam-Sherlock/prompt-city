@@ -1294,6 +1294,7 @@ box-shadow: inset 4px 4px 8px #B8BEC7, inset -4px -4px 8px #FFFFFF;
   },
   {
     id: "claymorphism",
+    category: "desktop",
     name: "Claymorphism",
     description: "3D clay-like elements — soft, inflated shapes with colorful surfaces, inner shadows for depth, and a playful, toy-like aesthetic.",
     accentColor: "#f97316",
