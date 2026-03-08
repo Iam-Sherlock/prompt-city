@@ -10,6 +10,7 @@ export interface ThemeConfig {
 export const themes: ThemeConfig[] = [
   {
     id: "terminal",
+    category: "desktop",
     name: "Terminal / CLI",
     description: "A hacker-aesthetic interface inspired by command-line terminals, monospaced typography, and phosphor-green text on dark backgrounds.",
     accentColor: "#00ff41",
