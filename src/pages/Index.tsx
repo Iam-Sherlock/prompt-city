@@ -2,6 +2,7 @@ import { useState } from "react";
 import { themes } from "@/data/themes";
 import { ThemeSidebar } from "@/components/ThemeSidebar";
 import { BrowserFrame } from "@/components/BrowserFrame";
+import { IPhoneFrame } from "@/components/IPhoneFrame";
 import { ThemePreview } from "@/components/ThemePreview";
 import { PromptPanel } from "@/components/PromptPanel";
 import { AnimatePresence, motion } from "framer-motion";
@@ -13,6 +14,7 @@ const Index = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const selectedTheme = themes.find((t) => t.id === selectedId) ?? themes[0];
+  const isMobile = selectedTheme.category === "mobile";
 
   return (
     <div className="h-screen flex bg-[#0a0a0a] overflow-hidden">
@@ -47,10 +49,13 @@ const Index = () => {
           <div className="flex items-center gap-3">
             <div className="w-3 h-3 rounded-full" style={{ backgroundColor: selectedTheme.accentColor }} />
             <h2 className="text-white font-semibold text-lg">{selectedTheme.name}</h2>
+            {isMobile && (
+              <span className="text-[10px] uppercase tracking-wider text-white/20 font-mono bg-white/5 px-2 py-0.5 rounded">Mobile</span>
+            )}
           </div>
         </div>
 
-        {/* Browser Frame */}
+        {/* Browser / iPhone Frame */}
         <div className="flex-1 min-h-0">
           <AnimatePresence mode="wait">
             <motion.div
@@ -61,9 +66,15 @@ const Index = () => {
               transition={{ duration: 0.2 }}
               className="h-full"
             >
-              <BrowserFrame url={`https://${selectedTheme.id}.design`}>
-                <ThemePreview themeId={selectedId} />
-              </BrowserFrame>
+              {isMobile ? (
+                <IPhoneFrame>
+                  <ThemePreview themeId={selectedId} />
+                </IPhoneFrame>
+              ) : (
+                <BrowserFrame url={`https://${selectedTheme.id}.design`}>
+                  <ThemePreview themeId={selectedId} />
+                </BrowserFrame>
+              )}
             </motion.div>
           </AnimatePresence>
         </div>
