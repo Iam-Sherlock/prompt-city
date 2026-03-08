@@ -1789,6 +1789,7 @@ You are an expert frontend engineer, UI/UX designer, visual design specialist, a
   },
   {
     id: "corporate-saas",
+    category: "desktop",
     name: "Corporate SaaS",
     description: "Clean, trustworthy, and professional — the polished look of modern B2B software with clear hierarchy, data-driven layouts, and conversion focus.",
     accentColor: "#3b82f6",
