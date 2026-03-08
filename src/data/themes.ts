@@ -1117,6 +1117,7 @@ You are an expert frontend engineer, UI/UX designer, visual design specialist, a
   },
   {
     id: "glassmorphism",
+    category: "desktop",
     name: "Glassmorphism",
     description: "Frosted glass effects — translucent backgrounds, blur filters, vibrant gradients underneath, and subtle borders that catch light.",
     accentColor: "#a855f7",
