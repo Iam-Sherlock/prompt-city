@@ -1708,6 +1708,7 @@ Cards, images, headers — nothing is perfectly straight.
   },
   {
     id: "y2k",
+    category: "desktop",
     name: "Y2K / Retro-Modern",
     description: "Early 2000s nostalgia — bubble shapes, chrome effects, star bursts, candy colors, and the optimistic futurism of the millennium turn.",
     accentColor: "#d946ef",
