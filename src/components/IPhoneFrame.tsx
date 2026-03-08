@@ -12,9 +12,8 @@ export function IPhoneFrame({ children }: IPhoneFrameProps) {
         <div className="absolute inset-0 rounded-[3rem] border border-white/[0.08] pointer-events-none z-30" />
 
         {/* Dynamic Island */}
-        <div className="absolute top-3 left-1/2 -translate-x-1/2 z-20 w-[100px] h-[28px] bg-black rounded-full flex items-center justify-center">
-          <div className="w-[10px] h-[10px] rounded-full bg-[#1a1a1a] border border-[#2a2a2a] mr-2" />
-          <div className="w-[6px] h-[6px] rounded-full bg-[#0a0a0a]" />
+        <div className="absolute top-3 left-1/2 -translate-x-1/2 z-20 w-[126px] h-[37px] bg-black rounded-full shadow-[0_0_0_1px_rgba(0,0,0,0.9)]">
+          <div className="absolute top-1/2 -translate-y-1/2 left-[22px] w-[12px] h-[12px] rounded-full bg-[#080808] ring-1 ring-[#1a1a1a]" />
         </div>
 
         {/* Status Bar */}
@@ -42,8 +41,9 @@ export function IPhoneFrame({ children }: IPhoneFrameProps) {
           </div>
         </div>
 
-        {/* Screen Content */}
-        <div className="flex-1 overflow-auto min-h-0">
+        {/* Screen Content — no scrollbar, drag to scroll */}
+        <div className="flex-1 overflow-auto min-h-0 scrollbar-none" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+          <style>{`.scrollbar-none::-webkit-scrollbar { display: none; }`}</style>
           {children}
         </div>
 
