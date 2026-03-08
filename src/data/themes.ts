@@ -849,6 +849,7 @@ No accent colors. Only these values:
   },
   {
     id: "luxury",
+    category: "desktop",
     name: "Luxury / Editorial",
     description: "High-end editorial design — elegant serif typography, muted gold accents, generous whitespace, and an air of sophistication.",
     accentColor: "#c9a96e",
