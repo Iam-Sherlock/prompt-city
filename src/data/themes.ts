@@ -757,6 +757,7 @@ Featured cell always uses \`col-span-2 row-span-2\`.
   },
   {
     id: "monochrome",
+    category: "desktop",
     name: "Monochrome",
     description: "Strictly black and white — no color at all. Design hierarchy achieved purely through typography, scale, weight, and spatial relationships.",
     accentColor: "#888888",
