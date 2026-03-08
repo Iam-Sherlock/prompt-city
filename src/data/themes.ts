@@ -1540,6 +1540,7 @@ You are an expert frontend engineer, UI/UX designer, visual design specialist, a
   },
   {
     id: "kinetic-typography",
+    category: "desktop",
     name: "Kinetic Typography",
     description: "Typography as the hero — large, expressive letterforms, animated text, scroll-triggered type effects, and words as visual elements.",
     accentColor: "#f43f5e",
