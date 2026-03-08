@@ -266,6 +266,7 @@ This hard-offset shadow is THE defining element. No blur. No spread. Just a soli
   },
   {
     id: "cyberpunk",
+    category: "desktop",
     name: "Cyberpunk / Neon",
     description: "A high-tech, low-life aesthetic with neon glows, dark backgrounds, glitch effects, and a dystopian futuristic feel.",
     accentColor: "#ff00ff",
