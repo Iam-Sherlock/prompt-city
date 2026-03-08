@@ -555,6 +555,7 @@ Red is used ONLY for: key interactive elements, one decorative accent per sectio
   },
   {
     id: "minimalism",
+    category: "desktop",
     name: "Modern Minimalism",
     description: "Less is more — generous whitespace, restrained color, subtle typography, and only the essential elements remain.",
     accentColor: "#2563eb",
