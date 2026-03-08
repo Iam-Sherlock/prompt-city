@@ -1459,6 +1459,7 @@ Vary sizes dramatically — 4rem next to 0.75rem.
   },
   {
     id: "liquid",
+    category: "desktop",
     name: "Liquid / WebGL",
     description: "Experimental fluid interfaces — morphing shapes, gradient blobs, smooth animations, and a sense of constant organic motion.",
     accentColor: "#06b6d4",
